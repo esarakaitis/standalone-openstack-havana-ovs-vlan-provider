@@ -1,0 +1,3 @@
+source /root/keystonerc_admin
+neutron net-create VLAN_1000 --provider:network_type vlan --provider:physical_network physnet1 --provider:segmentation_id 1000 --router:external=False
+neutron subnet-create VLAN_1000 --gateway 10.0.0.1 10.0.0/24 -- --enable_dhcp=True --name=VLAN_1000

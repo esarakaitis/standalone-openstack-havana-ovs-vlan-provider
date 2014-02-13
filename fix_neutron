@@ -1,0 +1,5 @@
+echo "enable_isolated_metadata = True" >> /etc/neutron/dhcp_agent.ini
+echo "enable_metadata_network = False" >> /etc/neutron/dhcp_agent.ini
+chkconfig openstack-nova-metadata-api off
+service openstack-nova-metadata-api stop
+service neutron-dhcp-agent restart

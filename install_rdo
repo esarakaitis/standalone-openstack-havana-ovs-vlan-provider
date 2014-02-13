@@ -1,0 +1,2 @@
+yum -y install http://rdo.fedorapeople.org/rdo-release.rpm
+yum -y install openstack-packstack
