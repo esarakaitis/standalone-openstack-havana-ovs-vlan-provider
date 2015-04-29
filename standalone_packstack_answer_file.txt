@@ -78,7 +78,7 @@ CONFIG_QPID_ENABLE_SSL=n
 CONFIG_QPID_ENABLE_AUTH=n
 
 # The password for the NSS certificate database of the QPID service
-CONFIG_QPID_NSS_CERTDB_PW=Ci530lab
+CONFIG_QPID_NSS_CERTDB_PW=lab
 
 # The port in which the QPID service listens to SSL connections
 CONFIG_QPID_SSL_PORT=5671
