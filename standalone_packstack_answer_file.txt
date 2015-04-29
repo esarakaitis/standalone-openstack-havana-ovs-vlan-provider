@@ -66,7 +66,7 @@ CONFIG_MYSQL_HOST=172.16.56.145
 CONFIG_MYSQL_USER=root
 
 # Password for the MySQL admin user
-CONFIG_MYSQL_PW=Ci530lab
+CONFIG_MYSQL_PW=lab
 
 # The IP address of the server on which to install the QPID service
 CONFIG_QPID_HOST=172.16.56.145
@@ -98,22 +98,22 @@ CONFIG_QPID_SSL_SELF_SIGNED=y
 CONFIG_QPID_AUTH_USER=qpid_user
 
 # Password for user authentication
-CONFIG_QPID_AUTH_PASSWORD=Ci530lab
+CONFIG_QPID_AUTH_PASSWORD=lab
 
 # The IP address of the server on which to install Keystone
 CONFIG_KEYSTONE_HOST=172.16.56.145
 
 # The password to use for the Keystone to access DB
-CONFIG_KEYSTONE_DB_PW=Ci530lab
+CONFIG_KEYSTONE_DB_PW=lab
 
 # The token to use for the Keystone service api
 CONFIG_KEYSTONE_ADMIN_TOKEN=4c58d41b407d4b28b9780c4b6191b6b4
 
 # The password to use for the Keystone admin user
-CONFIG_KEYSTONE_ADMIN_PW=Ci530lab
+CONFIG_KEYSTONE_ADMIN_PW=lab
 
 # The password to use for the Keystone demo user
-CONFIG_KEYSTONE_DEMO_PW=Ci530lab
+CONFIG_KEYSTONE_DEMO_PW=lab
 
 # Kestone token format. Use either UUID or PKI
 CONFIG_KEYSTONE_TOKEN_FORMAT=PKI
@@ -122,19 +122,19 @@ CONFIG_KEYSTONE_TOKEN_FORMAT=PKI
 CONFIG_GLANCE_HOST=172.16.56.145
 
 # The password to use for the Glance to access DB
-CONFIG_GLANCE_DB_PW=Ci530lab
+CONFIG_GLANCE_DB_PW=lab
 
 # The password to use for the Glance to authenticate with Keystone
-CONFIG_GLANCE_KS_PW=Ci530lab
+CONFIG_GLANCE_KS_PW=lab
 
 # The IP address of the server on which to install Cinder
 CONFIG_CINDER_HOST=172.16.56.145
 
 # The password to use for the Cinder to access DB
-CONFIG_CINDER_DB_PW=Ci530lab
+CONFIG_CINDER_DB_PW=lab
 
 # The password to use for the Cinder to authenticate with Keystone
-CONFIG_CINDER_KS_PW=Ci530lab
+CONFIG_CINDER_KS_PW=lab
 
 # The Cinder backend to use, valid options are: lvm, gluster, nfs
 CONFIG_CINDER_BACKEND=nfs
@@ -176,10 +176,10 @@ CONFIG_NOVA_COMPUTE_HOSTS=172.16.56.145
 CONFIG_NOVA_CONDUCTOR_HOST=172.16.56.145
 
 # The password to use for the Nova to access DB
-CONFIG_NOVA_DB_PW=Ci530lab
+CONFIG_NOVA_DB_PW=lab
 
 # The password to use for the Nova to authenticate with Keystone
-CONFIG_NOVA_KS_PW=Ci530lab
+CONFIG_NOVA_KS_PW=lab
 
 # The IP address of the server on which to install the Nova Scheduler
 # service
@@ -236,10 +236,10 @@ CONFIG_NOVA_NETWORK_SIZE=255
 CONFIG_NEUTRON_SERVER_HOST=172.16.56.145
 
 # The password to use for Neutron to authenticate with Keystone
-CONFIG_NEUTRON_KS_PW=Ci530lab
+CONFIG_NEUTRON_KS_PW=lab
 
 # The password to use for Neutron to access DB
-CONFIG_NEUTRON_DB_PW=Ci530lab
+CONFIG_NEUTRON_DB_PW=lab
 
 # A comma separated list of IP addresses on which to install Neutron
 # L3 agent
@@ -266,7 +266,7 @@ CONFIG_NEUTRON_METADATA_HOSTS=172.16.56.145
 
 # A comma separated list of IP addresses on which to install Neutron
 # metadata agent
-CONFIG_NEUTRON_METADATA_PW=Ci530lab
+CONFIG_NEUTRON_METADATA_PW=lab
 
 # The type of network to allocate for tenant networks (eg. vlan,
 # local, gre)
@@ -329,7 +329,7 @@ CONFIG_SSL_KEY=
 CONFIG_SWIFT_PROXY_HOSTS=172.16.56.145
 
 # The password to use for the Swift to authenticate with Keystone
-CONFIG_SWIFT_KS_PW=Ci530lab
+CONFIG_SWIFT_KS_PW=lab
 
 # A comma separated list of IP addresses on which to install the
 # Swift Storage services, each entry should take the format
@@ -379,10 +379,10 @@ CONFIG_PROVISION_ALL_IN_ONE_OVS_BRIDGE=n
 CONFIG_HEAT_HOST=172.16.56.145
 
 # The password used by Heat user to authenticate against MySQL
-CONFIG_HEAT_DB_PW=Ci530lab
+CONFIG_HEAT_DB_PW=lab
 
 # The password to use for the Heat to authenticate with Keystone
-CONFIG_HEAT_KS_PW=Ci530lab
+CONFIG_HEAT_KS_PW=lab
 
 # Set to 'y' if you would like Packstack to install Heat CloudWatch
 # API
@@ -407,13 +407,13 @@ CONFIG_CEILOMETER_HOST=172.16.56.145
 CONFIG_CEILOMETER_SECRET=ddc2cda648c94292
 
 # The password to use for Ceilometer to authenticate with Keystone
-CONFIG_CEILOMETER_KS_PW=Ci530lab
+CONFIG_CEILOMETER_KS_PW=lab
 
 # The IP address of the server on which to install the Nagios server
 CONFIG_NAGIOS_HOST=172.16.56.145
 
 # The password of the nagiosadmin user on the Nagios server
-CONFIG_NAGIOS_PW=Ci530lab
+CONFIG_NAGIOS_PW=lab
 
 # To subscribe each server to EPEL enter "y"
 CONFIG_USE_EPEL=y
